@@ -1,0 +1,25 @@
+
+.mytable {
+  width: calc(100% - 20px);
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.mytable td,
+.mytable th {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+.mytable thead tr {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.mytable tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.mytable tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
